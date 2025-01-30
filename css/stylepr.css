@@ -1,0 +1,823 @@
+*{
+    margin: 0 auto;
+    padding:0 auto;
+}
+@font-face {
+    font-family: ex;
+    src: url(../fonts/Montserrat-ExtraBold.ttf);
+}
+@font-face {
+    font-family: bold;
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: med;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+@font-face {
+    font-family: lig;
+    src: url(../fonts/Montserrat-Light.ttf);
+}
+.wrapper{
+    width:100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+}
+.cait{
+    width:1440px;
+    height:auto;
+}
+.shapka{align-items: center;
+    width:1440px;
+    height:72px;
+    background-color: #c8b9af;
+    display: flex;
+}
+.logo{
+    width:152px;
+    height:31px;
+}
+.knopka{
+    border-radius: 8px;
+    width:130px;
+    height:44px;
+    background-color: #8b3a1d;
+    display: flex;
+    align-items: center;
+}
+.list{
+    
+    display: flex;
+}
+.info{
+    margin-left: 18px;
+    font-family: bold;
+    font-size: 14px;
+}
+.poz{
+    color:white;
+    font-size: 14px;
+    font-family: bold;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 275px;
+}
+.text_first{
+    display: flex;
+    flex-direction: column;
+}
+.maf{
+    margin-top: 5px;
+    margin-left: 52px;
+    font-size: 40px;
+    font-family: ex;
+}
+.mi{
+    margin-top: 7px;
+    margin-left: 52px;
+    font-size: 18px;
+    font-family: med;
+}
+.kno{
+    margin-top: 20px;
+    margin-left: 52px;
+}
+.mo{
+    margin-top: 25px;
+}
+.keks{
+    margin-top: -72px;
+    margin-left: 50px;
+}
+.second{
+    margin-top: 270px;
+    display: flex;
+    flex-direction: column;
+}
+.slad{
+    font-size: 40px;
+    font-family: ex;
+}
+.foto_text{
+    width:1150px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 82px;
+}
+.obsh{
+    display: flex;
+    flex-direction: column;
+}
+.prazdnik{
+    margin-top: 50px;
+    font-size: 18px;
+    font-family: med;
+}
+.kno2{
+    margin-top: 30px;
+}
+.third{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+}
+.why{
+    font-size: 40px;
+    font-family: ex;
+}
+.for_why{
+    width:1150px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.block{
+    width:352px;
+    height:315px;
+    border-radius: 8px;
+    background-color: #c8b9af;
+    display: flex;
+    flex-direction: column;
+}
+.pikcha{
+    margin-top: 20px;
+}
+.txt{
+    margin-top: 7px;
+    font-size: 18px;
+    font-family: med;
+}
+.non{
+    margin-top: 6px;
+    font-size: 16px;
+    font-family: lig;
+}
+.stop{
+    margin-top: 20px;
+}
+.fourth{
+    margin-top: 235px;
+    border-radius: 8px;
+    width:1120px;
+    height:155px;
+    background-color: #4b211a;
+}
+.for_three{
+    
+    width:1120px;
+    display: flex;
+    justify-content: space-around;
+}
+.three{ 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+.number{
+    font-size: 28px;
+    font-family: ex;
+    color:white;
+}
+.tt{
+    margin-top: 17px;
+    font-size: 18px;
+    font-family: med;
+    color:white;
+}
+.one{
+    margin-left: 125px;
+}
+.two{
+    margin-left: 150px;
+}
+.again{
+    margin-left: 100px;
+}
+.choco{
+    margin-left: 15px;
+}
+.fifth{
+    width:1120px;
+    margin-top: 130px;
+    display: flex;
+    justify-content: space-around;
+}
+.zak{
+    margin-top: 15px;
+    margin-left: 0px;
+    font-size: 28px;
+    font-family: ex;
+}
+.near_foto{
+    margin-top: 75px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.vvod{
+    margin-top: 25px;
+    width:447px;
+    height:54px;
+    border: 1px solid black;
+}
+.vob{
+    margin-top:40px;
+}
+.vop{
+    display: flex;
+    margin-top:38px;
+}
+.bobs{
+    margin-left: 0px;
+    margin-top: 35px;
+}
+.name{
+    margin-left: 22px;
+    margin-top: 16px;
+    color:black;
+    font-size: 14px;
+    font-family: lig;
+}
+.fp{
+    margin-top: 18px;
+    margin-left: -220px;
+    color:black;
+    font-size: 14px;
+    font-family: lig;
+}
+.zagr{
+    margin-left: 17px;
+    margin-top: 15px;
+    width:25px;
+    height:25px;
+}
+.nom{
+    margin-top: 21px;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+}
+.prc{
+    margin-top: 110px;
+    font-size: 40px;
+    font-family: ex;
+}
+.four_block{
+    margin-top: 60px;
+    width:1200px;
+    display: flex;
+    justify-content: space-around;
+}
+.box{
+    width:225px;
+    height:255px;
+    background-color: #c8b9af;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.num{
+    margin-top: 35px;
+    color:#4b211a;
+    font-size: 40px;
+    font-family: ex;
+}
+.bab{
+    margin-top: 15px;
+    font-size: 18px;
+    font-family: med;
+}
+.plp{
+    margin-top: 5px;
+    font-size: 16px;
+    font-family: lig;
+}
+.fgf{
+    margin-top: 12px;
+}
+.seven{
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+}
+.what{
+    font-size: 40px;
+    font-family: ex;
+}
+.box_three{
+    display: flex;
+    flex-direction: column;
+    width:352px;
+    height:340px;
+    background-color: #c8b9af;
+    border-radius: 8px;
+}
+.allbox{
+    margin-top: 35px;
+    width:1150px;
+    display: flex;
+    justify-content: space-around;
+}
+.man{
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.mag{
+    margin-top: 3px;
+    margin-left: 15px;
+    font-family: lig;
+    font-size: 14px;
+}
+.olg{
+    margin-left: 15px;
+    margin-top: 10px;
+    color: #4b211a;
+    font-size: 14px;
+    font-family: bold;
+}
+.mog{
+    margin-top: 25px;
+}
+.stars{
+    margin-left: 13px;
+    margin-top: 60px;
+}
+.eight{
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.ost{
+    margin-left: 160px;
+    margin-top: 5px;
+    color: #4b211a;
+    font-size: 28px;
+    font-family: ex;
+}
+.for{
+    margin-left: 160px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: med;
+}
+.opa{
+    margin-top: 125px;
+}
+.near{
+    margin-top: 5px;
+    margin-left: 160px;
+}
+.fop{
+    margin-left: 13px;
+}
+.nameee{
+    margin-left: 16px;
+    margin-top: 20px;
+}
+.dadd{
+    margin-top: 30px;
+}
+.daad{
+    margin-top: 30px;
+}
+.babba{
+    background-color: #4b211a;
+    border-top-right-radius: 128px;
+}
+.ten{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.us{
+    font-size: 40px;
+    font-family: ex;
+}
+.foto_txt_knopka{
+    margin-top: 50px;
+    width:1150px;
+    display: flex;
+    justify-content: space-around;
+}
+.infoto{
+    display: flex;
+    flex-direction: column;
+}
+.blue{
+    margin-top: 40px;
+    background-color: #352d4b;
+}
+.recept{
+    font-size: 18px;
+    font-family: med;
+}
+.vans{
+    margin-top: 20px;
+}
+.eleven{
+    display: flex;
+    flex-direction: column;
+    margin-left:160px ;
+}
+.where{
+    margin-left:0px ;
+    color: #4b211a;
+    font-size: 28px;
+    font-family: bold;
+}
+.small{
+    margin-top: 5px;
+    margin-left:0px ;
+    font-size:16px;
+    font-family: lig;
+}
+.shv{
+    margin-top: 180px;
+}
+.kon{
+    margin-top: 35px;
+}
+.time{
+    margin-top: 37px;
+}
+.tame{
+    margin-top: 50px;
+}
+.nshi{
+    margin-top: 72px;
+}
+.faff{
+    margin-top: 22px;
+}
+.media{
+    margin-top: 35px;
+    margin-left: 0px;
+}
+.tg{
+    margin-left: 25px;
+}
+.inst{
+    margin-left: 25px;
+}
+.twelf{
+    margin-top: 263px;
+    display: flex;
+    flex-direction: column;
+}
+.do{
+    color:#4b211a;
+    font-size: 28px;
+    font-family: ex;
+}
+.por{
+    margin-top: 13px;
+    font-size: 16px;
+    font-family: lig;
+}
+.bkl{
+    margin-top: 25px;
+    background-color: #4b211a;
+}
+.footer{
+    margin-top: 135px;
+    background-color: #c8b9af;
+    width:1440px;
+    height:300px;
+}
+.lastbox{
+    margin-left: 0px;
+    display: flex;
+    justify-content: space-around;
+    width:1200px;
+}
+.van{
+    display: flex;
+    flex-direction: column;
+}
+.maffin{
+    margin-top: 25px;
+    margin-left: 100px;
+      font-size: 28px;
+      font-family: ex;
+}
+.we{
+    margin-top: 5px;
+    margin-left:100px ;
+    font-size: 14px;
+    font-family: lig;
+}
+.tu{
+    display: flex;
+    flex-direction: column;
+}
+.inf{
+    margin-top: 38px;
+    margin-left: 0px;
+    font-size: 14px;
+    font-family: bold;
+}
+.alala{
+    margin-left: 0px;
+    margin-top: 12px;
+    font-family: lig;
+    font-size: 14px;
+}
+.midia{
+    width:25px;
+    height:25px;
+}
+.for_midia{
+    display: flex;
+    justify-content: space-around;
+    width:100px;
+    margin-top: 18px;
+}
+.kak{
+    margin-top: 28px;
+}
+.nan{
+    margin-top: 27px;
+}
+.line{
+    margin-top: 85px;
+    background-color: #4b211a;
+    display: flex;
+    align-items: center;
+    height:54px;
+}
+.glory{
+    font-size: 14px;
+    font-family: lig;
+    color:white;  
+}
+@media (max-width: 700px) {
+    .wrapper{
+        width:400px;
+    }
+    .cait{
+        margin-left: -50px;
+        width:500px;
+    }
+    .shapka{
+        width:400px;
+        height:40px;
+    }
+    .logo{
+        display: none;
+        width:50px;
+        height:15px;
+    }
+    .info{
+        font-size: 7px;
+    }
+    .knoop{
+        width:65px;
+        height:25px;
+    }
+    .poz{
+        font-size: 7px;
+    }
+    .first{
+        margin-left: 15px;
+        margin-top: 100px;
+    }
+    .text_first{
+        margin-top: -75px;
+    }
+    .keks{
+        margin-left: 0px;
+        width:175px;
+        height:200px;
+    }
+    .maf{
+        font-size: 12px;
+    }
+    .mi{
+        width:75px;
+        font-size: 8px;
+    }
+    .kno{
+        width:100px;
+        height:50px;
+    }
+    .second{
+        margin-top: 50px;
+    }
+    .slad{
+        font-size: 24px;
+    }
+    .kiks{
+        width:80px;
+        height:100px;
+    }
+    .foto_text{
+        width:400px;
+    }
+    .kno2{
+        width:75px;
+        height:35px;
+    }
+    .prazdnik{
+        font-size: 8px;
+    }
+    .for_why{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .block{
+        margin-top: 5px;
+        margin-left: 70px;
+    }
+    .fourth{
+        margin-left: 55px;
+        margin-top: 50px;
+        width:380px;
+        height:125px;
+    }
+    .for_three{
+        width:400px;
+    }
+    .number{
+        font-size: 12px;
+    }
+    .tt{
+        font-size: 8px;
+    }
+    .three{
+        margin-left: 0px;
+        width:100px;
+    }
+    .choco{
+        margin-left: 10px;
+        width:150px;
+        height:225px;
+    }
+    .vvod{
+        margin-top: 15px;
+        width:160px;
+        height:35px;
+    }
+    .zagr{
+        width:15px;
+        height:15px;
+    }
+    .near_foto{
+        margin-top: 0px;
+        margin-left: -685px;
+    }
+    .zak{
+        font-size: 14px;
+        margin-left: 0px;
+    }
+    .fp{
+        margin-top: 13px;
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .name{
+        margin-top: 13px;
+        font-size: 10px;
+    }
+    .bobs{
+        margin-left: 15px;
+    }
+    .pok{
+        font-size: 12px;
+    }
+    .prc{
+        font-size: 20px;
+    }
+    .four_block{
+        margin-left: -355px;
+        display: flex;
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 5px;
+    }
+    .what{
+        font-size: 18px;
+    }
+    .allbox{
+        margin-left: 50px;
+        flex-direction:column ;
+    }
+    .box_three{
+        margin-top: 5px;
+    }
+    .vodka{
+        margin-left: 450px;
+    }
+    .ost{
+        margin-left: 70px;
+        font-size: 20px;
+    }
+    .vvob{
+        margin-left: 750px;
+    }
+    .vob{
+        margin-left: 750px;
+    }
+    .vobla{
+        margin-left: 450px;
+    }
+    .vop{
+        margin-left: 750px;
+    }
+    .vopka{
+        margin-left: 450px;
+    }
+    .for{
+        margin-left: 70px;
+        font-size: 14px;
+    }
+    .fop{
+        margin-left: 15px;
+    }
+    .nameee{
+        margin-left: 15px;
+    }
+    .nom{
+        margin-left: 15px;
+    }
+    .us{
+        font-size: 24px;
+    }
+    .foto_txt_knopka{
+        width:400px;
+    }
+    .keksik{
+        width:90px;
+        height:85px;
+    }
+    .recept{
+        font-size:8px;
+    }
+    .blue{
+        width:75px;
+        height:30px;
+    }
+    .eleven{
+        margin-left: 70px;
+    }
+    .kon{
+        width:250px;
+    }
+    .por{
+        font-size: 8px;
+    }
+    .poza{
+        font-size: 16px;
+    }
+    .footer{
+        width:400px;
+    }
+    .maffin{
+        font-size: 12px;
+    }
+    .we{
+        font-size: 8px;
+    }
+    .inf{
+        font-size: 10px;
+    }
+    .alala{
+        font-size: 10px;
+    }
+    .lastbox{
+        width:450px;
+    }
+    .fifth{
+        width:400px;
+    }
+    .twelf{
+        margin-top:100px ;
+    }
+    .lastbox{
+        margin-left: -75px;
+    }
+    .tux{
+        margin-left: 10px;
+    }
+    .for_why{
+        width:400px;
+    }
+    .near{
+        width:400px;
+    }
+    .near_foto{
+        width:400px;
+    }
+    .first{
+        width:400px;
+    }
+    .allbox{
+        width:400px;
+    }
+}
